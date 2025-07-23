@@ -15,7 +15,7 @@ The 3rd file `create_model.py` can be used to create a basic fraud prevention py
 * Create a simple server for model inference that will accept a featureset and produce a prediction as to whether or not a transaction is fraudulent. 
 * Comment on some statistics related to your model deployment. 
 
-We're looking for...
+### We're looking for...
 
 * Readable and scaleable code
 * A clear discussion of the solution, analysis and conclusions
