@@ -6,7 +6,7 @@ The `customers.jsonl` file include a list of json profiles representing fictiona
 
 * Run the `create_dataset.py` script. An integer parameter can be used to specify the number of rows of data. 
 * Use the generated historic (offline) dataset to help build part of a training dataset for a payments fraud prevention model. Each row in the dataset will be used as a row of training data. We'd like to build a feature that captures the number of transactions that have occurred in the past 24 hours using the email domain of the training row example. 
-* Comment on how your code scales as the number of rows in the dataset increases. We're more interested in a well written discussion, than a solution that processes the most number of rows. 
+* Comment on how your code scales as the number of rows in the dataset increases. We're more interested in a well written discussion, rather than a solution that processes the most number of rows. 
 
 ## Part 2:
 
