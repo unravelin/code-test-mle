@@ -5,7 +5,9 @@
 The `customers.jsonl` file include a list of json profiles representing fictional customers from an ecommerce company. `create_dataset.py` is a short python script than can be run to create a larger dataset using the `customers.jsonl` as a template. 
 
 * Run the `create_dataset.py` script. An integer parameter can be used to specify the number of rows of data. 
-* Use your newly generated historic dataset (NOT the `customers.jsonl` template) to help build part of a training dataset for a payments fraud prevention model. Each row in the dataset will be used as a row of training data. We'd like to build a feature that captures the number of transactions that have occurred in the past 24 hours using the email domain of the training row example.
+* Use your newly generated historic dataset (NOT the `customers.jsonl` template) to help build part of a training dataset for a payments fraud prevention model. 
+* Each row in the dataset will be used as a row of training data. We'd like to build a feature that captures the number of transactions that have occurred in the past 24 hours from the same paymentMethodIssuer of the training row transaction. 
+* This will help us detect if there is an increase in the "velocity" of transactions coming from a given payment method issuer (bank). 
 * You can use any tool you would like, but we'd like you to stick to SQL & Python, as much as possible. 
 * Write up some analysis of your implementation and how it scales as the number of rows in the dataset increases. We're more interested in a well written discussion, rather than a solution that processes the most number of rows. 
 

@@ -1,9 +1,10 @@
-import json
+import argparse
+import copy
 import datetime
+import json
 import random
 import string
-import copy
-import argparse
+
 
 def generate_random_string(length=8):
     """Generates a random string of lowercase letters and digits."""
@@ -131,7 +132,7 @@ if __name__ == "__main__":
     # The seed ensures that the "random" data generated is the same every time the script is run.
     SEED = 42
     NUM_ROWS_TO_GENERATE = args.num_rows
-    TEMPLATE_FILE = "customers.json"
+    TEMPLATE_FILE = "customers.jsonl"
     OUTPUT_FILE = f"customers_generated_{NUM_ROWS_TO_GENERATE}_seed{SEED}.jsonl"
     
     # --- Run the generator ---
