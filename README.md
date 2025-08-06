@@ -23,3 +23,7 @@ The 3rd file `create_model.py` can be used to create a basic fraud prevention py
 * Readable and scaleable code
 * A clear discussion of the solution, analysis and conclusions. Talk us through the motivation behind your solution.
 * Please don't spend more than 1-2 hours on this task. You may find that there are more aspects of the model/data than you can realistically investigate and that's fine. If that is the case, please just describe what your next steps might be if there were more time allocated to the task. 
+
+## Questions
+
+Please reach out to us, if you have any questions. We would be happy to clarify anything and/or give you some guidance to the extent that we can help :)  
